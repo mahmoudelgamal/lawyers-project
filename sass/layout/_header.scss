@@ -1,0 +1,50 @@
+.header {
+    background-image: url(../img/slide-bg.jpg);
+    margin-top: -203px;
+    height: 100vh;
+    position: relative;
+
+    &__attorney {
+        position: absolute;
+        bottom: 0;
+    }
+
+    &__info {
+        position: absolute;
+        bottom: 2rem;
+        left: 45%;
+        transform: translateX(-45%);
+        color: $color-white;
+        text-align: center;
+        h2 {
+            font-size: 3.5rem;
+        }
+
+        h3, h4 {
+            display: inline-block;
+        }
+
+        h4 {
+            font-size: 6rem;
+            font-weight: bold;
+            color: $color-primary;
+            text-shadow: 1px 1px 0 #fff, 1px 4px 10px #000;
+            text-align: right;
+            margin-left: 17px;
+        }
+
+        h3 {
+            font-size: 2.5rem;
+            color: $color-tertiary;
+            border-bottom: 2px solid currentColor;
+            transform: translateY(-26px);
+            padding-bottom: 3px;
+        }
+
+        a {
+            display: inline-block; 
+        }
+    }
+
+
+}
